@@ -24,3 +24,23 @@
   line-height: 1.4;
   margin: 0;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .features {
+    padding: 2rem;
+    margin: 6rem 0 0;
+  }
+
+  .iconBox {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+  }
+  .title {
+    width: 90%;
+    font-size: 18px;
+  }
+}

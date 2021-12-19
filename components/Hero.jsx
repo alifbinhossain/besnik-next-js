@@ -26,15 +26,7 @@ const Hero = () => {
         /*                                 HERO BANNER                                */
         /* -------------------------------------------------------------------------- */}
         <Grid item xs={4} sm={4} md={6} className={styles.banner}>
-          <Image
-            placeholder="blur"
-            src={banner}
-            alt=""
-            width={400}
-            height={600}
-            objectFit="cover"
-            className={styles.bannerImage}
-          />
+          <Image src={banner} alt="" className={styles.bannerImage} />
           <Box className={styles.students}>
             <p>100K</p>
             <span>Active Students</span>

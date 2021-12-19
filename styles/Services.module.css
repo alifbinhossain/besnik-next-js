@@ -30,4 +30,30 @@
 
 .serviceDetails {
   color: #5a5a5a;
+  line-height: 1.6;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .services {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  .subTitle {
+    color: #5a5a5a;
+    margin: 1rem 0 3rem;
+  }
+  .service {
+    text-align: center;
+  }
+  .iconBox {
+    margin: 0 auto;
+  }
 }

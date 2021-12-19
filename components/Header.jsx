@@ -25,7 +25,7 @@ const Header = () => {
         boxShadow: "none",
         backgroundColor: "transparent",
         color: "black",
-        px: 5,
+        px: { md: 9, xs: 3 },
         py: 1,
       }}
     >

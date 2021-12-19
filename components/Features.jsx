@@ -39,7 +39,7 @@ const Features = () => {
                 className={styles.iconBox}
                 sx={{ backgroundColor: `${feature.iconBackground}` }}
               >
-                <feature.icon sx={{ fontSize: "30px" }} />
+                <feature.icon sx={{ fontSize: { xs: "20px", md: "30px" } }} />
               </Box>
               <h4 className={styles.title}>{feature.title}</h4>
             </Box>
