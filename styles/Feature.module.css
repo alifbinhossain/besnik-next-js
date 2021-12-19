@@ -1,0 +1,26 @@
+.features {
+  padding: 2rem 6rem;
+  margin: 3rem 0;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  color: #fff;
+}
+.title {
+  width: 75%;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}

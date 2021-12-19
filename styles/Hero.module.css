@@ -1,0 +1,84 @@
+.hero {
+  padding: 0 6rem 2rem;
+  min-height: 90vh;
+  max-height: 90vh;
+}
+/* ------------------------------ HERO CONTENT ------------------------------ */
+.content {
+  padding-top: 6rem !important;
+}
+.content > * {
+  margin: 0;
+  line-height: 1.4;
+}
+.content > *:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+.content h1 {
+  font-size: 3.5rem;
+}
+.content p {
+  width: 90%;
+  color: #5a5a5a;
+}
+.inputBox {
+  display: flex;
+  justify-content: space-between;
+
+  width: max-content;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem 1rem rgba(0, 0, 0, 0.05);
+}
+.inputBox input {
+  padding: 1rem 1.6rem;
+  border: none;
+}
+.inputBox input:focus {
+  outline: none;
+}
+
+.inputBox button {
+  background-color: #f1a501;
+  border: none;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+/* ------------------------------- HERO BANNER ------------------------------ */
+.banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bannerImage {
+  margin-top: -6rem !important;
+  display: block;
+}
+
+.members,
+.students {
+  background-image: linear-gradient(to right, #50c9c3, #96deda);
+  color: #fff;
+  position: absolute;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.members {
+  bottom: 18%;
+  left: 5%;
+}
+.students {
+  top: 18%;
+  right: 2%;
+}
+.students p,
+.members p {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 8px;
+}

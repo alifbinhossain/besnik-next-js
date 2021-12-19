@@ -1,0 +1,31 @@
+.navLink {
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.navLink:not(:last-child) {
+  margin-right: 2rem;
+}
+.navLink:hover {
+  color: #f1a501;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:not(:last-child) {
+  margin-right: 2rem;
+}
+.btnSignin {
+  color: #f1a501;
+  background-color: transparent;
+}
+.btnSignup {
+  background-color: #f1a501;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 100px;
+}
