@@ -89,10 +89,12 @@
 @media (max-width: 668px) {
   .hero {
     padding: 0 2rem;
+    min-height: 90vh;
+    max-height: unset;
   }
   /* ------------------------------ HERO CONTENT ------------------------------ */
   .content {
-    padding-top: 2rem !important;
+    padding-top: 3rem !important;
   }
   .content > * {
     line-height: 1.2;
@@ -117,7 +119,7 @@
 
   /* ------------------------------- HERO BANNER ------------------------------ */
   .bannerImage {
-    margin-top: -4rem !important;
+    margin-top: 0 !important;
   }
   .members,
   .students {
