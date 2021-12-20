@@ -24,7 +24,6 @@
 .inputBox {
   display: flex;
   justify-content: space-between;
-
   width: max-content;
   border-radius: 100px;
   overflow: hidden;
@@ -115,13 +114,18 @@
   .content p {
     width: 100%;
   }
+  .inputBox {
+    width: 100%;
+  }
 
   .inputBox input {
     padding: 0.8rem 1.2rem;
+    width: 60%;
   }
 
   .inputBox button {
-    padding: 0.6rem 1rem;
+    padding: 0.6rem;
+    width: 40%;
   }
 
   /* ------------------------------- HERO BANNER ------------------------------ */
@@ -137,5 +141,8 @@
 
   .students {
     top: 48%;
+  }
+  .members {
+    bottom: 5%;
   }
 }
