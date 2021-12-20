@@ -94,7 +94,14 @@ const Footer = () => {
         ))}
       </Grid>
 
-      <Typography textAlign="center" variant="subtitle2" mt={5} color="#555658">
+      <Typography
+        textAlign="center"
+        variant="subtitle2"
+        mt={5}
+        color="#555658"
+        borderTop="1px solid #e1e5e4"
+        pt={3}
+      >
         Copyright &copy; 2021 All Right Reserved by Besnik Agency
       </Typography>
     </footer>
