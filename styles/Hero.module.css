@@ -63,6 +63,7 @@
     transparent
   );
   background-position: 0 6rem;
+  background-repeat: no-repeat;
 }
 
 .members,
@@ -126,7 +127,7 @@
   /* ------------------------------- HERO BANNER ------------------------------ */
   .bannerImage {
     margin-top: 0 !important;
-    background-position: 0;
+    background-position: 0 2rem;
   }
   .members,
   .students {
