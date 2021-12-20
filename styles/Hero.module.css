@@ -57,6 +57,12 @@
 .bannerImage {
   margin-top: -6rem !important;
   display: block;
+  background: radial-gradient(
+    rgba(80, 201, 195, 0.2) 45%,
+    transparent,
+    transparent
+  );
+  background-position: 0 6rem;
 }
 
 .members,
@@ -120,6 +126,7 @@
   /* ------------------------------- HERO BANNER ------------------------------ */
   .bannerImage {
     margin-top: 0 !important;
+    background-position: 0;
   }
   .members,
   .students {
@@ -128,6 +135,6 @@
   }
 
   .students {
-    top: 28%;
+    top: 48%;
   }
 }

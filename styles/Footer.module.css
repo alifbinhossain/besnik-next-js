@@ -1,0 +1,28 @@
+.footer {
+  background-color: #fafbff;
+  padding: 4rem 6rem 3rem;
+}
+
+.sectionList {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.sectionList a {
+  display: block;
+  color: #555658;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sectionList a:hover {
+  color: #f1a501;
+}
+.sectionList a:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+}
