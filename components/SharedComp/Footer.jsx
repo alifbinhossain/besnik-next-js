@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import styles from "../styles/Footer.module.css";
+import styles from "../../styles/Footer.module.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -35,7 +35,7 @@ const Footer = () => {
     {
       id: 1,
       title: "Company",
-      sections: ["About", "Careers", "Mobile", "How it works", "Contact us"],
+      sections: ["About", "Careers", "Mobile", "How it works"],
     },
     {
       id: 2,

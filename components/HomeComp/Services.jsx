@@ -1,4 +1,4 @@
-import styles from "../styles/Services.module.css";
+import styles from "../../styles/Services.module.css";
 import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 import GroupIcon from "@mui/icons-material/Group";
 import BorderColorIcon from "@mui/icons-material/BorderColor";

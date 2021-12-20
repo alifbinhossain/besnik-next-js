@@ -16,3 +16,16 @@ a {
 * {
   box-sizing: border-box;
 }
+.btn-learn {
+  display: block;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #f1a501;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 100px;
+  margin-top: 2rem;
+}

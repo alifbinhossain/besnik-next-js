@@ -38,6 +38,7 @@
 }
 
 .inputBox button {
+  font-family: inherit;
   background-color: #f1a501;
   border: none;
   color: #fff;

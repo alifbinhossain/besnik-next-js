@@ -8,7 +8,7 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
-import styles from "../styles/Header.module.css";
+import styles from "../../styles/Header.module.css";
 const Header = () => {
   const pages = ["Home", "Services", "About", "Courses", "Contact Us"];
   const [anchorElNav, setAnchorElNav] = React.useState(null);

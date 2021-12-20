@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import Image from "next/image";
-import banner from "../public/images/banner.png";
-import styles from "../styles/Hero.module.css";
+import banner from "../../public/images/banner.png";
+import styles from "../../styles/Hero.module.css";
 const Hero = () => {
   return (
     <section className={styles.hero}>

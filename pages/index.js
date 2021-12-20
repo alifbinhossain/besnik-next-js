@@ -1,8 +1,9 @@
-import CTA from "../components/CTA";
-import Features from "../components/Features";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Services from "../components/Services";
+import Hero from "../components/HomeComp/Hero";
+import Features from "../components/HomeComp/Features";
+import Services from "../components/HomeComp/Services";
+import CTA from "../components/HomeComp/CTA";
+import Mentors from "../components/HomeComp/Mentors";
+import Analytics from "../components/HomeComp/Analytics";
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
       <Hero></Hero>
       <Features></Features>
       <Services></Services>
+      <Mentors></Mentors>
+      <Analytics></Analytics>
       <CTA></CTA>
-      <Footer></Footer>
     </div>
   );
 }

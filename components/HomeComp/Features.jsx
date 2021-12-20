@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
-import styles from "../styles/Feature.module.css";
+import styles from "../../styles/Feature.module.css";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import PersonIcon from "@mui/icons-material/Person";
 import MessageIcon from "@mui/icons-material/Message";

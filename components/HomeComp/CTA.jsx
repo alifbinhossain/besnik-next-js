@@ -1,4 +1,4 @@
-import styles from "../styles/CTA.module.css";
+import styles from "../../styles/CTA.module.css";
 import GoogleIcon from "@mui/icons-material/Google";
 import AppleIcon from "@mui/icons-material/Apple";
 import { Box } from "@mui/system";
