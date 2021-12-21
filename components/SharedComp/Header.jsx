@@ -103,6 +103,7 @@ const Header = () => {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: "block", md: "none" },
+                position: "static",
               }}
             >
               {pages.map((page) => (
